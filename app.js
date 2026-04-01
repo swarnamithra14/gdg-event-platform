@@ -579,7 +579,11 @@ if (form) {
 } else {
     console.error("Form not found");
 }
-    document.getElementById('clearAllBtn').addEventListener('click', clearAllData);
+    const clearBtn = document.getElementById('clearAllBtn');
+
+if (clearBtn) {
+    clearBtn.addEventListener('click', clearAllData);
+}
 
     // Initialize features
     setupDragAndDrop();
