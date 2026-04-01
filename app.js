@@ -572,7 +572,13 @@ function initializeApp() {
     console.log('Initializing GDG Event Platform...');
 
     // Setup event listeners
-    document.getElementById('registrationForm').addEventListener('submit', handleFormSubmit);
+    const form = document.getElementById('registrationForm');
+
+if (form) {
+    form.addEventListener('submit', handleFormSubmit);
+} else {
+    console.error("Form not found");
+}
     document.getElementById('clearAllBtn').addEventListener('click', clearAllData);
 
     // Initialize features
