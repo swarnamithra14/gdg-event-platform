@@ -1,0 +1,35 @@
+{
+  "name": "gdg-event-platform",
+  "version": "1.0.0",
+  "description": "A functional GDG Event Platform built with HTML, CSS, Bootstrap, and LocalStorage",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server",
+    "build": "echo 'No build required - static site'",
+    "deploy-vercel": "vercel",
+    "deploy-netlify": "netlify deploy --prod"
+  },
+  "keywords": [
+    "gdg",
+    "event",
+    "platform",
+    "registration",
+    "gallery",
+    "html",
+    "css",
+    "bootstrap",
+    "javascript",
+    "localstorage"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/gdg-event-platform.git"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "vercel": "^latest",
+    "netlify-cli": "^latest"
+  }
+}
