@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3.7rem;
     font-weight: 900;
     line-height: 1.1;
-    color: transparent;
+    color: black;
     background: linear-gradient(90deg, #ea4335 0%, #4285f4 25%, #34a853 50%, #fbbc05 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
