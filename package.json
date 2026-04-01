@@ -28,8 +28,6 @@
     "url": "https://github.com/YOUR_USERNAME/gdg-event-platform.git"
   },
   "devDependencies": {
-    "http-server": "^14.1.1",
-    "vercel": "^latest",
-    "netlify-cli": "^latest"
+    "http-server": "^14.1.1"
   }
 }
