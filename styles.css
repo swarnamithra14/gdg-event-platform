@@ -120,23 +120,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3.7rem;
     font-weight: 900;
     line-height: 1.1;
-
-    color: #4285f4; /* fallback */
-
-    background: linear-gradient(
-        90deg,
-        #ea4335 0%,
-        #4285f4 25%,
-        #34a853 50%,
-        #fbbc05 75%
-    );
-
-    background-clip: text;
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
-
+    color: #000; /* clean black */
+    
     display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 0.5rem;
+
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    animation: slideInLeft 0.8s ease-out 0.1s both;
 }
 
 .hero-section::before {
